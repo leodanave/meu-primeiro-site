@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
     <link rel="stylesheet" href="Estilos.css">
-    <link rel="stylesheet" href="login.css">
-    <title>Login</title>
+    <title>Cadastro</title>
 </head>
 
 <body>
+
     <div class="header">
         <div class="container">
             <h1>AQUATEC</h1>
@@ -26,11 +27,15 @@
         </div>
     </div>
 
-
     <div class="banner">
         <div class="container">
             <div class="caixa-formulario">
-                <h2>Olá, seja Bem-Vindo</h2>
+                <h2>Bem-Vindo</h2>
+                <h4>Cadastre-se no nosso site 🐬</h4>
+                <div class="campo">
+                    <label for="in_nome">Nome</label>
+                    <input type="text" id="in_nome" placeholder="Insira seu nome">
+                </div>
                 <div class="campo">
                     <label for="in_email">E-mail</label>
                     <input type="email" id="in_email" placeholder="exemplo@gmail.com">
@@ -38,6 +43,10 @@
                 <div class="campo">
                     <label for="in_senha">Senha</label>
                     <input type="password" id="in_senha" placeholder="**********">
+                </div>
+                <div class="campo">
+                    <label for="in_senhaConfirmacao">Confirme sua Senha</label>
+                    <input type="password" id="in_senhaConfirmacao" placeholder="**********">
                 </div>
                 <button onclick="">Enviar</button>
             </div>
@@ -49,6 +58,7 @@
             <p>Desenvolvido por Léo da Nave - &copy; Copyright</p>
         </div>
     </div>
+
 </body>
 
 </html>
