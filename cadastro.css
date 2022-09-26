@@ -32,6 +32,7 @@
 
 .campo input::placeholder {
     opacity: 0.6;
+    text-align: center;
 }
 
 .campo input:focus-visible {
