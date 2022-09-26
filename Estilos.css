@@ -2,7 +2,12 @@
     padding: 0;
     margin: 0;
     color: #f1f1f1;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.highlight a {
+    color: #f5c988;
+    font-weight: 700; 
 }
 
 .header {
@@ -28,6 +33,7 @@ ul {
     display: flex;
     width: 350px;
     justify-content: space-between;
+    align-items: center;
     list-style: none;
 }
 
