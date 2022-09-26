@@ -13,6 +13,10 @@
     margin-bottom: 10px;
 }
 
+.campo input:focus-visible {
+    outline: unset;
+}
+
 .campo {
     display: flex;
     justify-content: flex-start;
@@ -22,8 +26,8 @@
 }
 
 .campo label{
-    color: rgb(48, 48, 48);
-    margin: 15px 0;
+    color: #f079a7;
+    margin: 10px 0;
 }
 
 .campo input {
